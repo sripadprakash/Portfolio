@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_message: 'Message',
             contact_phone: 'Direct Call',
             contact_call: 'Call Now',
-            footer_text: 'Copyright &copy; 2024 by Sripad Prakash | All Rights Reserved.'
+            footer_text: 'Copyright &copy; 2026 by Sripad Prakash | All Rights Reserved.'
         },
         nl: {
             nav_home: 'Home',
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_message: 'Bericht',
             contact_phone: 'Telefoon',
             contact_call: 'Bel Nu',
-            footer_text: 'Copyright &copy; 2024 door Sripad Prakash | Alle rechten voorbehouden.'
+            footer_text: 'Copyright &copy; 2026 door Sripad Prakash | Alle rechten voorbehouden.'
         }
     };
 
