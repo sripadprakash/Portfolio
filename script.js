@@ -176,14 +176,97 @@ document.addEventListener('DOMContentLoaded', () => {
             contact_phone: 'Telefoon',
             contact_call: 'Bel Nu',
             footer_text: 'Copyright &copy; 2026 door Sripad Prakash | Alle rechten voorbehouden.'
+        },
+        de: {
+            nav_home: 'Startseite',
+            nav_about: 'Über mich',
+            nav_skills: 'Kenntnisse',
+            nav_experience: 'Erfahrung',
+            nav_education: 'Ausbildung',
+            nav_awards: 'Auszeichnungen',
+            nav_contact: 'Kontakt',
+            badge_copilot: 'Zertifizierter GitHub Copilot Experte',
+            home_hello: 'Hallo, ich bin',
+            home_desc: 'Hochqualifizierter Automatisierungs-QA-Ingenieur mit 6 Jahren IT-Erfahrung, spezialisiert auf Webtests. Ein lösungsorientierter Profi, der sich schnell anpasst und hochwertige Ergebnisse liefert.',
+            home_cv: 'Lebenslauf herunterladen',
+            typed_strings: ['Automation QA Engineer', 'Experte für Testautomatisierung', 'Playwright-Spezialist', 'KI-gestützter QA-Profi'],
+            about_heading_1: 'Über',
+            about_heading_2: 'Mich',
+            about_sub: 'Ingenieur für Testautomatisierung',
+            about_desc: 'Automatisierungsorientierter QA-Ingenieur mit über 6 Jahren Erfahrung in der Bereitstellung hochwertiger, zuverlässiger und skalierbarer Softwarelösungen.<br><br>Ich bin spezialisiert auf den Entwurf und Aufbau robuster Testautomatisierungs-Frameworks für Webanwendungen. Ich bin von Selenium/C# auf Playwright/TypeScript umgestiegen, was die Testzuverlässigkeit, Ausführungsgeschwindigkeit und Wartbarkeit verbessert hat. Ich nutze KI-gestützte Codierungstools, um die Entwicklung zu beschleunigen und die Produktivität zu steigern.<br><br>Erfahren in UI- und API-Tests, konzentriere ich mich auf die Erstellung effizienter, wartbarer und skalierbarer Automatisierungslösungen, die an modernen Entwicklungspraktiken ausgerichtet sind.',
+            about_languages_label: 'Sprachen:',
+            about_languages: 'Englisch, Malayalam, Hindi',
+            about_location_label: 'Standort:',
+            about_location_value: 'Emmen, Niederlande',
+            about_status_label: 'Status:',
+            about_status: 'Auf der Suche nach der richtigen Herausforderung',
+            about_contact: 'Kontaktieren Sie mich',
+            skills_heading_1: 'Kern-',
+            skills_heading_2: 'kompetenzen',
+            skills_box1_title: 'Automatisierung & API-Tests',
+            skills_box1_desc: 'Playwright, Selenium WebDriver, Postman, Swagger UI, GitHub Copilot (KI-gestützte Codierung)',
+            skills_box2_title: 'Qualitätssicherung',
+            skills_box2_desc: 'Testfallentwicklung, Testausführung, Jira Bug Tracking, Black Box Testing, Performance Testing',
+            skills_box3_title: 'Tech Stack',
+            skills_box3_desc: 'TypeScript, C#, Java (Basis), Python, Windows, macOS, Linux',
+            skills_box4_title: 'Berufliche Stärken',
+            skills_box4_desc: 'Anpassungsfähigkeit, Zeitmanagement, Zusammenarbeit, Problemlösung, kontinuierliche Verbesserung',
+            experience_heading_1: 'Berufs-',
+            experience_heading_2: 'erfahrung',
+            exp_box1_title: 'Ingenieur für Testautomatisierung',
+            exp_box1_company: 'Mphasis Limited | Bangalore | Karnataka | Indien',
+            exp_box1_date: 'August 2022 – Dezember 2025',
+            exp_box1_li1: 'Umstellung der Automatisierungs-Frameworks von Selenium/C# auf Playwright/TypeScript zur Verbesserung der Testzuverlässigkeit',
+            exp_box1_li2: 'Nutzung von GitHub Copilot zur Beschleunigung der Entwicklung und Steigerung der Produktivität',
+            exp_box1_li3: 'Integration von KI-gestützten Tools in den Workflow für eine effiziente Projektabwicklung',
+            exp_box2_title: 'QA-Ingenieur',
+            exp_box2_company: 'SAP Labs India | Bangalore | Karnataka | Indien',
+            exp_box2_date: 'September 2019 – August 2022',
+            exp_box2_li1: 'Durchführung von Black Box-, Regressions- und Performance-Tests für Webanwendungen',
+            exp_box2_li2: 'Entwicklung und Wartung manueller und automatisierter Test-Suites',
+            exp_box2_li3: 'Durchführung von API-Tests mit Postman, Swagger und Pytest',
+            exp_box2_li4: 'Fehlerverfolgung und Verwaltung von Testzyklen mit Jira',
+            edu_heading_1: 'Akademischer',
+            edu_heading_2: 'Werdegang',
+            edu_box1_title: 'B.Tech – Informatik & Ingenieurwesen',
+            edu_box1_company: 'Kalasalingam Academy of Research & Education | Krishnankoil | Indien',
+            edu_box1_date: 'Juli 2015 – Mai 2019',
+            edu_box1_desc: 'Schwerpunkt auf Informatikkonzepten, Softwaretests und Entwicklungsprinzipien',
+            edu_box2_title: 'Berufsbildende höhere Schule – Informatik',
+            edu_box2_company: 'Rahmaniya VHSS | Kozhikode | Kerala | Indien',
+            edu_box2_date: 'Juli 2013 – März 2015',
+            edu_box2_desc: 'Grundlagen der Informatik und praktische Anwendungen',
+            edu_box3_title: 'SSLC – 10. Klasse',
+            edu_box3_company: 'Azhikode High School | Kannur | Kerala | Indien',
+            edu_box3_date: 'Juni 2011 – März 2013',
+            edu_box3_desc: 'Solide akademische Grundlage in allen Kernfächern',
+            awards_heading_1: 'Wichtige',
+            awards_heading_2: 'Auszeichnungen',
+            awards_box1_title: 'GitHub Copilot Lizenzinhaber',
+            awards_box1_date: 'Okt 2024',
+            awards_box1_li1: 'Zertifiziert durch Mphasis mit einer Bewertung von 90% in KI-gestützter Entwicklung.',
+            awards_box2_title: 'NPTEL Zertifizierungen',
+            awards_box2_company: 'Berufliche Weiterbildung',
+            awards_box2_date: 'Sep 2018',
+            awards_box2_li1: 'Abgeschlossene "Software Testing" Schulung und "ELITE" Auszeichnung in "Joy of Computing in Python."',
+            contact_heading_1: 'Kontaktieren',
+            contact_heading_2: 'Sie mich',
+            contact_email: 'E-Mail',
+            contact_send_email: 'E-Mail senden',
+            contact_linkedin: 'LinkedIn',
+            contact_connect: 'Vernetzen',
+            contact_whatsapp: 'WhatsApp',
+            contact_message: 'Nachricht',
+            contact_phone: 'Direktanruf',
+            contact_call: 'Jetzt anrufen',
+            footer_text: 'Copyright &copy; 2026 von Sripad Prakash | Alle Rechte vorbehalten.'
         }
     };
-
     // 3. LANGUAGE SWITCH LOGIC
     const changeLanguage = (lang) => {
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
-            if (translations[lang][key]) {
+            if (translations[lang] && translations[lang][key]) {
                 // Handle innerHTML for elements with icons/HTML, textContent for plain text
                 if (element.children.length > 0 && !element.classList.contains('btn')) {
                     const icon = element.querySelector('i');
@@ -204,11 +287,16 @@ document.addEventListener('DOMContentLoaded', () => {
         if (typedInstance) typedInstance.destroy();
         initTyped(translations[lang].typed_strings);
 
-        // UI active state
-        langBtns.forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-lang') === lang));
+        // UI active state for language buttons
+        langBtns.forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+        });
+        
+        // Save preference to local storage
         localStorage.setItem('preferredLang', lang);
     };
 
+    // Attach click events to language buttons
     langBtns.forEach(btn => {
         btn.onclick = () => changeLanguage(btn.getAttribute('data-lang'));
     });
@@ -235,9 +323,11 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // Sticky Header
         const header = document.querySelector('header');
         header.classList.toggle('sticky', window.scrollY > 100);
 
+        // Remove toggle icon and navbar when click navbar links (scroll)
         menuIcon.classList.remove('bx-x');
         navbar.classList.remove('active');
     };
@@ -255,11 +345,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Initialize with preferred language
+    // Initialize with preferred language (Default to EN)
     const preferredLang = localStorage.getItem('preferredLang') || 'en';
     changeLanguage(preferredLang);
 
-    // 6. SCROLL REVEAL ANIMATIONS (Executive Feel)
+    // 6. SCROLL REVEAL ANIMATIONS
     const sr = ScrollReveal({
         origin: 'top',
         distance: '80px',
@@ -272,5 +362,5 @@ document.addEventListener('DOMContentLoaded', () => {
     sr.reveal('.home-img, .skills-box, .contact-card, .timeline-box', { interval: 200, origin: 'bottom' });
     sr.reveal('.about-img', { origin: 'left' });
     sr.reveal('.about-content', { origin: 'right' });
-    sr.reveal('.education-column', { interval: 200, origin: 'left' });
+    sr.reveal('.timeline-container', { interval: 200, origin: 'left' });
 });
