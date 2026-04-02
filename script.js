@@ -358,9 +358,22 @@ document.addEventListener('DOMContentLoaded', () => {
         // reset: true // Use true if you want animations to repeat on every scroll
     });
 
-    sr.reveal('.home-content, .heading');
-    sr.reveal('.home-img, .skills-box, .contact-card, .timeline-box', { interval: 200, origin: 'bottom' });
+    // Determine if we should disable animations for specific sections (Mobile/Tablet)
+    const isMobileOrTablet = window.innerWidth <= 1100;
+
+    // Home and About sections (Always animated)
+    sr.reveal('.home-content, #about .heading');
+    sr.reveal('.home-img', { delay: 400, origin: 'bottom' });
     sr.reveal('.about-img', { origin: 'left' });
     sr.reveal('.about-content', { origin: 'right' });
-    sr.reveal('.timeline-container', { interval: 200, origin: 'left' });
+
+    // Sections to disable on mobile/tablet as per user request
+    if (!isMobileOrTablet) {
+        sr.reveal('#skills .heading, #experience .heading, #education .heading, #awards .heading, #contact .heading');
+        sr.reveal('.skills-box, .contact-card, .timeline-box', { interval: 200, origin: 'bottom' });
+        sr.reveal('.timeline-container', { interval: 200, origin: 'left' });
+    } else {
+        // Just reveal the headings without animation or simply leave them (they are visible by default if not revealed)
+        // We will leave them alone so they are visible immediately on mobile.
+    }
 });

@@ -581,13 +581,19 @@ section {
 }
 
 @media (max-width: 1100px) {
+    /* Prevent horizontal scrolling in specific sections on tablet */
+    .skills, .experience, .education, .awards, .contact {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     .header { padding: 2rem 3%; }
     .header.sticky { padding: 1.5rem 3%; }
     section { 
         padding: 8rem 5% 4rem;
         min-height: auto;
     }
-    
+
     .home { 
         min-height: 100vh;
         flex-direction: column-reverse; 
@@ -596,12 +602,12 @@ section {
         margin-top: 0;
         gap: 4rem;
     }
-    
+
     .home-img .img-box {
         width: 35rem;
         height: 35rem;
     }
-    
+
     .home-content h1 { font-size: 5rem; }
     .home-content p { margin: 2rem auto 3rem; }
     .home-btns { 
@@ -610,12 +616,12 @@ section {
         align-items: center;
         gap: 2rem;
     }
-    
+
     .btn-outline { margin-left: 0; }
-    
+
     .about-container { flex-direction: column; text-align: center; }
     .about-img img { width: 30rem; max-width: 100%; }
-    
+
     .info-grid { 
         display: flex;
         flex-direction: column;
@@ -624,15 +630,20 @@ section {
         margin: 0 auto 4rem;
         text-align: left;
     }
-    
+
     .timeline-container {
         margin: 0 2rem 0 3.5rem;
     }
 }
 
 @media (max-width: 768px) {
+    /* More aggressive overflow prevention for mobile */
+    .skills, .experience, .education, .awards, .contact {
+        overflow-x: hidden;
+    }
+
     #menu-icon { display: block; }
-    
+
     .navbar {
         position: absolute;
         top: 100%;
